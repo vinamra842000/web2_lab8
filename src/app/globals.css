@@ -1,0 +1,43 @@
+/* styles/globals.css */
+
+/* Default light theme styles */
+body {
+  background-color: white;
+  color: black;
+}
+
+.dark body {
+  background-color: #121212;
+  color: white;
+}
+
+/* Add other theme styles */
+.bg-background {
+  background-color: #f4f4f4; /* Light background color */
+}
+
+.text-foreground {
+  color: black; /* Light text color */
+}
+
+/* Dark Theme styles */
+.dark .bg-background {
+  background-color: #1a1a1a; /* Dark background */
+}
+
+.dark .text-foreground {
+  color: white; /* Dark text color */
+}
+
+/* Button styles */
+.bg-primary {
+  background-color: #0070f3;
+}
+
+.text-primary-foreground {
+  color: white;
+}
+
+button {
+  transition: background-color 0.3s;
+}
